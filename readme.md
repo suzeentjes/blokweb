@@ -77,7 +77,7 @@ https://www.winkelstraat.nl
 **Breakdown-schets(en):**
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/breakdownschets.png "Logo Title Text 1")
-<img src="images/breakdownschets.png">
+![alt text](images/breakdownschets.png)
+<img src="images/breakdownschets2.png">
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
