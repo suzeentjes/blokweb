@@ -76,7 +76,7 @@ https://www.winkelstraat.nl
 
 **Breakdown-schets(en):**
 
-![](images/breakdownschets2.png)
+![alt](images/breakdownschets2.png)
 <img src="images/breakdownschets.png">
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
