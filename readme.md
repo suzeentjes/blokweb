@@ -73,11 +73,9 @@ https://www.winkelstraat.nl
 
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/breakdownschets.PNG)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/breakdownschets2.PNG)
 
 **Breakdown-schets(en):**
 
-Inline-style: 
-![alt text](images/breakdownschets.png)
-<img src="images/breakdownschets2.png">
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
