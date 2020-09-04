@@ -71,9 +71,9 @@ https://www.winkelstraat.nl
 **Screenshot(s):**
 
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/breakdownschets.PNG)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/breakdownschets2.PNG)
-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot1.jpg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot2.jpg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot3.jpg)
 
 **Breakdown-schets(en):**
 
