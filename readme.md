@@ -58,14 +58,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** -kies uit zwart, rood óf blauw-
 
+Rood
+
 **Je focus:** -kies uit responsive óf surface plane-
+
+Surface plane
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
+www.winkelstraat.nl
+
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot1.jpg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot2.jpg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot2.jpg)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![screenshot(s) die een geod voorbeeld geven van de website die je gaat maken](images/breakdownschets.png)
+![screenshot(s) die een geod voorbeeld geven van de website die je gaat maken](images/breakdownschets1.png)
