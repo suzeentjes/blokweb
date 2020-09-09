@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Suze Entjes-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -72,9 +72,9 @@ www.winkelstraat.nl
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot1.jpg)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot2.jpg)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot2.jpg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot3.jpg)
 
 **Breakdown-schets(en):**
 
 ![screenshot(s) die een geod voorbeeld geven van de website die je gaat maken](images/breakdownschets.png)
-![screenshot(s) die een geod voorbeeld geven van de website die je gaat maken](images/breakdownschets1.png)
+![screenshot(s) die een geod voorbeeld geven van de website die je gaat maken](images/breakdownschets2.png)
