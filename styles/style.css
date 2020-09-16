@@ -18,13 +18,26 @@ body header p {
   font-size: 12px;
 }
 
-/* Het logo wordt in display:block gezet, want het is een inline element*/
-header > img {
-  display: block;
-  margin: auto;
-  padding: 1em;
+
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header li  {
+  color: black;
+  list-style-type: none;
+  background-color: pink
+}
+
+header li a {
+  text-decoration: none;
 
 }
+
+
+
 
 /* Het section element wordt relative gezet*/
 body main section {
@@ -60,6 +73,7 @@ body main section li {
   background-color: #000000;
   list-style-type: none;
   padding: 10px 9px 9px;
+
 
 }
 
