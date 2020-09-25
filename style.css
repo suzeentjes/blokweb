@@ -1,0 +1,266 @@
+/* CSS Document */
+
+*, *::after, *::before {
+  box-sizing:border-box;
+  margin: 0; padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* De paragraaf in de header*/
+body header p {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1em;
+  font-size: 12px;
+}
+ body header i {
+   background-image: url("images/stars.png");
+   margin: 5em;
+   width: 15em;
+   height: 15em;
+
+ }
+
+header ul li a {
+  background-image: url();
+}
+
+
+
+
+header > ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+header li  {
+  color: black;
+  list-style-type: none;
+  text-align: center;
+  margin: 1em;
+
+}
+
+header ul li:first-of-type {
+  flex-grow: 4;
+}
+
+header ul li:nth-of-type(2){
+  flex-grow: 1;
+
+}
+
+header ul li:nth-of-type(3) {
+  flex-grow: 1;
+}
+
+header ul li:last-of-type {
+  flex-grow: 1;
+}
+
+
+header li a {
+  text-decoration: none;
+
+}
+
+
+
+/* Het formulier krijgt een display flex, zodat alle content in het midden van de pagina komt te staan, van uit horizontaal gezien*/
+header form {
+  border: 1px solid grey;
+  padding: 1em 1em;
+  margin: 0 1em 1em 1em;
+}
+
+header input {
+  border: none;
+  width: 80%;
+}
+
+
+header button {
+  border: none;
+  background-color: white;
+  width: 10%;
+}
+
+
+
+
+
+
+/*Eerste afbeelding - heren, dames & kinderen*/
+
+
+
+/* Het section element wordt relative gezet*/
+body main section {
+  position: relative;
+}
+
+/* Het element wordt gepossitioneerd ten opzichte van het parent element, de section. */
+body main section div {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+/* De h2 wordt aangeroepen */
+body main section h1 {
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 36px;
+  font-size: 33px;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+/* Deze unorderd list wordt doormiddel van display: flex naast elkaar gepositioneerd en ruimte tussen de li's*/
+body main section div ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* De drie verschillende lijstjes worden aangesproken*/
+body main > section li {
+  background-color: #000000;
+  list-style-type: none;
+  padding: 12.5px 12.5px;
+}
+
+/*De linkjes worden aangesproken*/
+body main section ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/*Tweede afbeelding - explore kinderen*/
+
+
+/*Het directe child van de body is de section die een relatief is*/
+body > section {
+  position: relative;
+
+}
+
+body > section div {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+body > section h1 {
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 36px;
+  font-size: 33px;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+body > section div ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* De drie verschillende lijstjes worden aangesproken*/
+div > ul li{
+  background-color: #000000;
+  list-style-type: none;
+  padding: 12.5px 12.5px;
+  color: #F6F6F6;
+  text-decoration: none;
+}
+
+
+
+/*De linkjes worden aangesproken*/
+body section div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+body h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1em 2em;
+
+}
+
+/*Informatie over de winkel*/
+body > p:first-of-type {
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 180%;
+  margin: 1em 3em 2em;
+
+}
+
+footer section h2 {
+  background-color: #F6F6F6;
+  padding: 1.5em;
+  margin: 0;
+  border-top: 0.1em solid lightgray;
+}
+
+footer section ul {
+  height: 0;
+  opacity: 0;
+}
+
+footer section ul li {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 0.5em;
+
+}
+
+footer section ul li a{
+  text-decoration: none;
+  color: #000000;
+
+}
+
+
+body footer section:last-of-type ul  {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 1em auto;
+
+}
+
+body footer section:last-of-type ul li  {
+  flex-wrap: wrap;
+  margin-top: 2em;
+  text-decoration: none;
+  list-style-type: none;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+
+
+
+
+/*De 2020 laatste paragraaf*/
+body > p:nth-of-type(2) {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 15px;
+  margin: 2em 0;
+}
