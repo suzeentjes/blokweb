@@ -17,21 +17,32 @@ body header p {
   padding: 1em;
   font-size: 12px;
 }
- body header i {
-   background-image: url("images/stars.png");
-   margin: 5em;
-   width: 15em;
-   height: 15em;
 
+ body header i {
+   background-image: url("../images/stars.png");
+   z-index: 2;
  }
 
-header ul li a {
-  background-image: url();
+
+
+header ul li a:first-of-type {
+  background-image: url("../images/hamburgermenu.png");
+  background-repeat: no-repeat;
+  width: 30em;
   text-decoration: none;
 }
 
+header ul li a:nth-of-type(2) {
+  background-image: url("../images/logo.png");
+}
 
+header ul li a:nth-of-type(3) {
+  background-image: url("../images/heart.png");
+}
 
+header ul li a:nth-of-type(4) {
+  background-image: url("../images/bag.png");
+}
 
 header > ul {
   display: flex;
@@ -118,12 +129,15 @@ body main section h2 {
   margin-bottom: 0.5em;
 }
 
-@media (min-width:40em) {
+@media (min-width:50em) {
     body main section h2 {
       font-size: 45px;
       line-height: 45px;
       text-transform: uppercase;
       margin-bottom: 0.5em;
+    }
+    body main section li {
+      font-size: 20px;
     }
   }
 
