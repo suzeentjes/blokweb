@@ -14,17 +14,27 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5em;
 
+  position: sticky;
+  top: 0;
+  background-color: rgba(255,255,255, 0.85);
+  z-index: 1;
+}
+
+header nav  {
+  display: none;
 }
 
 
 header > button,
-header ul:nth-of-type(2) li:first-of-type a,
-header ul:nth-of-type(2) li:nth-last-of-type(1) a {
+header ul li:first-of-type a,
+header ul li:nth-last-of-type(1) a {
   background-size: contain;
   background-position: center;
   display: inline-block;
-  width: 2em;
+  width: 1.5em;
   height: 2em;
   text-decoration: none;
 }
@@ -32,15 +42,16 @@ header ul:nth-of-type(2) li:nth-last-of-type(1) a {
 header > button {
   background-image: url("../images/hamburgermenu.png");
   background-repeat: no-repeat;
-  margin-left: 1.5em
+  margin-left: 1.5em;
+
 }
 
-header a:first-of-type img {
+header > a img {
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
   width: 12.5em;
-
 }
+
 
 header ul li:nth-of-type(1) a {
   background-image: url("../images/heart.png");
@@ -55,24 +66,7 @@ header ul li:nth-of-type(2) a {
 
 header ul {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-
 }
-
-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-header ul:first-of-type {
-  display: none;
-}
-
-
 
 header form {
   width: 100%;
@@ -80,59 +74,10 @@ header form {
 
 
 header > button {
-  display:block;
+  display: block;
 }
 
-@media (min-width:1227px) {
-    body main{
-      margin: 0 1.5em;
 
-    }
-
-    body > section:first-of-type div h2 {
-      margin: 0 0.5em;
-      font-size: 30px;
-    }
-
-    body > section:first-of-type {
-        margin-left: 1.5em;
-        margin-right: 0.5em;
-
-    }
-
-    body > section:nth-last-of-type(2) {
-        margin-right: 1.5em;
-        margin-left: 0.5em;
-
-    }
-
-
-    header {
-      justify-content: space-between;
-    }
-    header form {
-      width: 20vw;
-      order: 3;
-    }
-    header ul:first-of-type {
-      width: 30vw;
-      display: flex;
-      order: -1;
-      margin-left: 1em;
-    }
-    header > a img {
-      order: 2;
-    }
-
-    header ul:last-of-type {
-      order: 4;
-      margin: 1em;
-    }
-    header > button {
-      display: none;
-    }
-
-}
 
 header li  {
   color: black;
@@ -153,8 +98,6 @@ header h1 {
   left: -666em;
 }
 
-
-
 /* Het formulier krijgt een display flex, zodat alle content in het midden van de pagina komt te staan, van uit horizontaal gezien*/
 header form {
   border: 1px solid grey;
@@ -162,17 +105,19 @@ header form {
   margin: 1em 1em 1em 1em;
   display: flex;
   justify-content: space-between;
+
 }
 
 header input {
   border: none;
   width: 80%;
+  background-color: rgba(255, 255, 255, 0.0);
 }
 
 
 header button {
   border: none;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.0);
 }
 
 
@@ -203,21 +148,6 @@ body main section h2 {
   margin-bottom: 0.5em;
 }
 
-@media (min-width:50em) {
-    body main section h2 {
-      font-size: 45px;
-      line-height: 45px;
-      text-transform: uppercase;
-
-    }
-    body main section li {
-      font-size: 20px;
-
-    }
-  }
-
-
-
 
 /* Deze unorderd list wordt doormiddel van display: flex naast elkaar gepositioneerd en ruimte tussen de li's*/
 body main section div ul {
@@ -240,7 +170,6 @@ body main section ul li a {
 }
 
 
-/*Tweede afbeelding - explore kinderen*/
 
 
 /*Het directe child van de body is de section die een relatief is*/
@@ -256,6 +185,12 @@ body > section div {
   transform:translate(-50%, -50%);
 }
 
+body > section div ul {
+display: flex;
+justify-content: center;
+
+}
+
 body section h2 {
   color: #FFFFFF;
   text-align: center;
@@ -266,18 +201,6 @@ body section h2 {
 
 }
 
-@media (min-width:45em) {
-    body section h2 {
-      line-height: 45px;
-      text-transform: uppercase;
-      margin-bottom: 0.5em;
-    }
-  }
-
-body > section div ul {
-  display: flex;
-  justify-content: center;
-}
 
 /* De drie verschillende lijstjes worden aangesproken*/
 div > ul li{
@@ -288,14 +211,11 @@ div > ul li{
   text-decoration: none;
 }
 
-
-
 /*De linkjes worden aangesproken*/
 body section div ul li a {
   text-decoration: none;
   color: white;
 }
-
 
 body section h3 {
   font-size: 16px;
@@ -303,15 +223,16 @@ body section h3 {
   text-transform: uppercase;
   text-align: center;
   margin: 3em 2em 1em;
-
 }
 
+/*Geeft een margin rechts */
 body > section:first-of-type {
   margin-right: 0.1em;
 }
 
+/*Geeft een margin links */
 body > section:nth-of-type(2) {
-  margin-left: 0.15em;
+  margin-left: 0.1em;
 }
 
 /*Informatie over de winkel*/
@@ -322,29 +243,10 @@ body section:last-of-type p {
   margin: 0em 3em 3em ;
 }
 
-@media (min-width:45em) {
- body {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
- }
- header,
- main,
- footer,
- section:last-of-type {
-   grid-column: 1 / -1;
- }
- body >  section:last-of-type {
-   max-width: 50em;
-   margin: 0 auto;
- }
-}
 
 
 
-
-
-
-
+/*Begin van de footer*/
 
 footer section h3 {
   background-color: #F6F6F6;
@@ -368,44 +270,48 @@ footer section button {
   outline: none;
 }
 
-
 footer section ul {
   max-height: 0;
   opacity: 0;
+  pointer-events: none;
   transition: 1s;
 }
 
+/*Voor het aanroepen met Javascript*/
 .toonFooter footer section:first-of-type ul {
   max-height: 100em;
   opacity: 1;
+  pointer-events: all;
 }
 
 .toonFooter2 footer section:nth-of-type(2) ul {
   max-height: 100em;
   opacity: 1;
+  pointer-events: all;
 }
 
 .toonFooter3 footer section:nth-of-type(3) ul {
   max-height: 100em;
   opacity: 1;
+  pointer-events: all;
 }
 
-.toonFoote4 footer section:nth-of-type(4) ul {
+/*pointer-events mag nooit het target zijn van een muisklik, dus als je er op klikt,wordt het element genegeerd.  */
+.toonFooter4 footer section:nth-of-type(4) ul {
   max-height: 100em;
   opacity: 1;
+  pointer-events: all;
 }
 
 footer section ul li {
   background-color: #F6F6F6;
   text-align: center;
   padding: 0.5em;
-
 }
 
 footer section ul li a{
   text-decoration: none;
   color: #000000;
-
 }
 
 
@@ -430,11 +336,7 @@ body footer section:last-of-type ul li  {
 footer section:last-of-type ul {
   max-height: 1000em;
   opacity: 1;
-
 }
-
-
-
 
 
 /*De 2020 laatste paragraaf*/
@@ -443,4 +345,110 @@ body footer > p {
   font-weight: lighter;
   font-size: 15px;
   margin: 3em 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*Begin media query's van klein tot groot*/
+
+@media (min-width:45em) {
+ body {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+ header,
+ main,
+ footer,
+ section:last-of-type {
+   grid-column: 1 / -1;
+ }
+ body >  section:last-of-type {
+   max-width: 50em;
+   margin: 0 auto;
+ }
+
+}
+
+@media (min-width:45em) {
+  body > section div ul {
+  display: flex;
+  justify-content: center;
+  }
+}
+
+
+@media (min-width:50em) {
+    body main section h2 {
+      font-size: 45px;
+      line-height: 45px;
+      text-transform: uppercase;
+
+    }
+    body main section li {
+      font-size: 20px;
+    }
+  }
+
+
+@media (min-widt: 700px) {
+  header ul,
+  header ul li:nth-last-of-type(1) {
+    background-size: contain;
+    width: 5em;
+    height: 5em;
+    }
+  }
+
+
+
+@media (min-width:1227px) {
+    body main{
+      margin: 0 1.5em;
+    }
+
+    body > section:first-of-type div h2 {
+      margin: 0 0.5em;
+      font-size: 30px;
+    }
+
+    body > section:first-of-type {
+        margin-left: 1.5em;
+    }
+
+    body > section:nth-last-of-type(2) {
+        margin-right: 1.5em;
+    }
+
+    header form {
+      width: 20vw;
+      order: 3;
+    }
+
+    header nav {
+      width: 35vw;
+      display: flex;
+      order: -1;
+      margin-left: 1em;
+    }
+
+    header > a img {
+      order: 2;
+    }
+
+    header ul {
+      order: 4;
+      margin: 1em;
+    }
+
+    header > button {
+      display: none;
+    }
+
 }
