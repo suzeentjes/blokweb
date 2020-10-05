@@ -42,7 +42,7 @@ header ul li:nth-last-of-type(1) a {
 header > button {
   background-image: url("../images/hamburgermenu.png");
   background-repeat: no-repeat;
-  margin-left: 1.5em;
+  margin-left: 1.3em;
 
 }
 
@@ -170,23 +170,97 @@ body main section ul li a {
   color: white;
 }
 
-/*Detailpagina navigatie onder aan de artikelen*/
-body main section nav ul li:first-of-type a{
-  background-image: url("../images/nav-pijl-links.svg");
-  width: 3em;
-  height: 3em;
-  display: inline-block;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+.detailpagina main section:first-of-type ul {
+  display: flex;
+  overflow: scroll;
 }
 
-body main section nav ul li:nth-of-type(2) a{
-  background-image: url("../images/nav-pijl-rechts.svg");
-  width: 3em;
-  height: 3em;
+.detailpagina main section:first-of-type ul li {
+  margin: 0.2em;
+  padding: 0.5em;
+  background-color: white;
+  border: .1rem solid rgba(34,34,34,.1);
+  border-radius: 0.25em;
+}
+
+.detailpagina main section:first-of-type ul li:first-of-type {
+  margin-left: 0.8em;
+}
+
+.detailpagina main section:first-of-type ul li a {
+  color: #333;
+  font-size: 17px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+.detailpagina main section:first-of-type button {
+  margin-left: 1em;
+  margin-top: 1em;
+  background-color: white;
+  border: .1rem solid rgba(34,34,34,.1);
+  border-radius: 0.25em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 5em 0.5em 0.5em;
+  font-size: 17px;
+
+}
+
+.detailpagina main section:first-of-type button img {
+  max-width: 50%;
+}
+
+
+.detailpagina main section:nth-of-type(2) {
+  display: grid;
+}
+
+.detailpagina main section:nth-of-type(2) article {
+  gr
+}
+
+
+/*Detialpagina de navigatie flexen*/
+.detailpagina main section nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.detailpagina main section nav ul li {
+  background-color: white;
+}
+
+
+/*Detailpagina navigatie onder aan de artikelen*/
+.detailpagina main section nav ul li:first-of-type a{
+  background-image: url("../images/nav-pijl-links.svg");
+  width: 2em;
+  height: 2em;
   display: inline-block;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 2em;
+}
+
+.detailpagina main section nav ul li p {
+  font-size: 17px;
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+
+/*Detailpagina navigatie onder aan de artikelen*/
+.detailpagina main section nav ul li:nth-of-type(3) a{
+  background-image: url("../images/nav-pijl-rechts.svg");
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 2em;
+
 }
 
 
@@ -216,7 +290,13 @@ body section h2 {
   font-size: 33px;
   text-transform: uppercase;
   margin-bottom: 0.5em;
+}
 
+.detailpagina main h2 {
+  font-size: 20px;
+  margin-left: 0.8em;
+  margin-top: 0.5em;
+  margin-bottom: -1.5em;
 }
 
 
