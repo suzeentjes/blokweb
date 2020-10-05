@@ -86,6 +86,7 @@ header li  {
   margin: 0.5em;
   font-weight: bold;
   text-transform: uppercase;
+
 }
 
 header li:last-of-type  {
@@ -169,7 +170,24 @@ body main section ul li a {
   color: white;
 }
 
+/*Detailpagina navigatie onder aan de artikelen*/
+body main section nav ul li:first-of-type a{
+  background-image: url("../images/nav-pijl-links.svg");
+  width: 3em;
+  height: 3em;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+body main section nav ul li:nth-of-type(2) a{
+  background-image: url("../images/nav-pijl-rechts.svg");
+  width: 3em;
+  height: 3em;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 /*Het directe child van de body is de section die een relatief is*/
@@ -267,7 +285,7 @@ footer section button {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  outline: none;
+
 }
 
 footer section ul {
