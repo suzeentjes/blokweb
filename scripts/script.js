@@ -56,7 +56,12 @@ function toonFooter3() {
 
 
 
+  var button = document.querySelector("header button");
 
+  console.log(button)
 
+  button.addEventListener("click", toggleMenu);
 
-  
+  function toggleMenu() {
+  document.body.classList.toggle("toonMenu");
+}

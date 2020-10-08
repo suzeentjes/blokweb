@@ -23,9 +23,45 @@ header {
   z-index: 1;
 }
 
-
 header nav {
-  display: none;
+  left: 100%;
+}
+/*Navigatie als je op hamburgermenu klikt*/
+header nav ul{
+  position: absolute;
+  background-color: black;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left:-100%;
+  z-index: 100;
+  transition:.5s;
+  z-index:50;
+}
+
+/*Navigatie als je op hamburgermenu klikt*/
+header nav ul li {
+  text-align: left;
+  margin: 2em 0 0 3em;
+  padding-bottom: 1em;
+  border-bottom: 0.1em solid gray;
+  width: 80%;
+}
+
+/*Navigatie als je op hamburgermenu klikt*/
+header nav ul li:first-of-type{
+  margin-top: 5em;
+}
+
+/*Navigatie als je op hamburgermenu klikt*/
+header nav ul li a{
+ color: white;
+ text-decoration: none;
+}
+
+.toonMenu{
+  left:0;
 }
 
 
@@ -55,12 +91,12 @@ header > a img {
 
 
 header > ul li:nth-of-type(1) a {
-  background-image: url("../images/heart.png");
+  background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
 }
 
 header > ul li:nth-of-type(2) a {
-  background-image: url("../images/bag.png");
+  background-image: url("../images/bag.svg");
   background-repeat: no-repeat;
   margin-right: 0.5em;
 }
@@ -88,10 +124,7 @@ header li  {
   text-transform: uppercase;
 }
 
-header nav ul li a {
-  color: black;
-  text-decoration: none;
-}
+
 
 header nav ul li:last-of-type a {
   color: red;
@@ -583,6 +616,10 @@ body footer > p {
       transform: scaleX(1);
     }
 
+    header nav ul li a {
+      color: black;
+      text-decoration: none;
+    }
 
 
     body main{
