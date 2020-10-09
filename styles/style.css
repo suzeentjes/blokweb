@@ -16,7 +16,6 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-top: 0.5em;
-
   position: sticky;
   top: 0;
   background-color: rgba(255,255,255, 0.85);
@@ -24,7 +23,7 @@ header {
 }
 
 header nav {
-  left: 100%;
+  left: -666em;
 }
 /*Navigatie als je op hamburgermenu klikt*/
 header nav ul{
@@ -34,10 +33,8 @@ header nav ul{
   height: 100vh;
   width: 100vw;
   top: 0;
-  left:-100%;
+  left: -1000%;
   z-index: 100;
-  transition:.5s;
-  z-index:50;
 }
 
 /*Navigatie als je op hamburgermenu klikt*/
@@ -60,7 +57,7 @@ header nav ul li a{
  text-decoration: none;
 }
 
-.toonMenu{
+.toonMenu nav ul{
   left:0;
 }
 
@@ -266,6 +263,22 @@ body main section ul li a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.detailpagina main section:nth-of-type(2) article button {
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 1.5em;
+    left: 2em;
+}
+
+.detailpagina main section:nth-of-type(2) article button a{
+  background-image: url("../images/heartfullgray.svg");
+  background-repeat: no-repeat;
+  width: 2em;
+  height: 2em;
+  display: inline-block;
 }
 
 /*Detialpagina de navigatie flexen*/
@@ -574,6 +587,10 @@ body footer > p {
       display: flex;
       order: -1;
       margin-left: 1em;
+    }
+
+    header nav ul {
+
     }
 
     header > a img {

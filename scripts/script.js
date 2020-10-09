@@ -60,8 +60,8 @@ function toonFooter3() {
 
   console.log(button)
 
-  button.addEventListener("click", toggleMenu);
-
   function toggleMenu() {
   document.body.classList.toggle("toonMenu");
 }
+
+  button.addEventListener("click", toggleMenu);
