@@ -9,13 +9,11 @@ body {
   font-family: sans-serif;
 }
 
-
 header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-top: 0.5em;
   position: sticky;
   top: 0;
   background-color: rgba(255,255,255, 0.85);
@@ -24,24 +22,28 @@ header {
 
 header nav {
   left: -666em;
+
 }
 /*Navigatie als je op hamburgermenu klikt*/
-header nav ul{
+header nav {
   position: absolute;
   background-color: black;
-  flex-direction: column;
   height: 100vh;
   width: 100vw;
   top: 0;
   left: -1000%;
   z-index: 100;
+
+}
+
+header nav ul {
+  flex-direction: column;
 }
 
 /*Navigatie als je op hamburgermenu klikt*/
 header nav ul li {
   text-align: left;
   margin: 2em 0 0 3em;
-  padding-bottom: 1em;
   border-bottom: 0.1em solid gray;
   width: 80%;
 }
@@ -57,9 +59,16 @@ header nav ul li a{
  text-decoration: none;
 }
 
-.toonMenu nav ul{
+.toonMenu nav {
   left:0;
 }
+.toonMenu header > button {
+  background-image: url("../images/cross.svg");
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+
+
 
 
 header > button,
@@ -74,9 +83,10 @@ header > ul li:nth-last-of-type(1) a {
 }
 
 header > button {
-  background-image: url("../images/hamburgermenu.png");
+  background-image: url("../images/hamburgermenu.svg");
   background-repeat: no-repeat;
   margin-left: 1.3em;
+  z-index: 100;
 
 }
 
@@ -88,8 +98,22 @@ header > a img {
 
 
 header > ul li:nth-of-type(1) a {
+  position: relative;
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
+}
+
+header ul li a>span {
+  position: absolute;
+  font-size: 12px;
+  right: -6px;
+  bottom: -4px;
+  background-color: #000;
+  color: white;
+  display: block;
+  width: 1.5em;
+  line-height: 1.5em;
+  border-radius: 50%;
 }
 
 header > ul li:nth-of-type(2) a {
@@ -141,7 +165,11 @@ header form {
   margin: 1em 1em 1em 1em;
   display: flex;
   justify-content: space-between;
+  border-radius: 0.2em;
+}
 
+header form:active {
+  background-color: white;
 }
 
 header input {
@@ -206,6 +234,7 @@ body main section ul li a {
 }
 
 
+
 .detailpagina main section:first-of-type ul {
   display: flex;
   overflow: scroll;
@@ -232,21 +261,23 @@ body main section ul li a {
 
 .detailpagina main section:first-of-type button {
   margin-left: 1em;
-  margin-top: 1em;
   background-color: white;
   border: .1rem solid rgba(34,34,34,.1);
   border-radius: 0.25em;
   display: flex;
   justify-content: space-between;
   padding: 0.5em;
+  align-items: center;
   width: 40%;
   font-size: 17px;
+
 
 }
 
 .detailpagina main section:first-of-type button img {
   width: 2em;
 }
+
 
 
 .detailpagina main section:nth-of-type(2) {
@@ -256,35 +287,45 @@ body main section ul li a {
 }
 
 .detailpagina main section:nth-of-type(2) article {
-  margin: 0.5em;
+  margin: 1em;
+  position: relative;
 }
 
 .detailpagina main section:nth-of-type(2) article img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .detailpagina main section:nth-of-type(2) article button {
     border: none;
     background-color: white;
-    position: absolute;
     top: 1.5em;
-    left: 2em;
+    left: 1.5em;
 }
 
-.detailpagina main section:nth-of-type(2) article button a{
+.detailpagina main section:nth-of-type(2) article button {
+  background-size: contain;
   background-image: url("../images/heartfullgray.svg");
   background-repeat: no-repeat;
+  position: absolute;
+  top: 1em;
+  left: 1em;
   width: 2em;
   height: 2em;
-  display: inline-block;
+
+}
+
+.detailpagina main section:nth-of-type(2) nav {
+  grid-column: 1 / -1;
 }
 
 /*Detialpagina de navigatie flexen*/
 .detailpagina main section nav ul {
   display: flex;
   justify-content: center;
+  margin-top: 2em;
 }
 
 .detailpagina main section nav ul li {
@@ -355,7 +396,6 @@ body section h2 {
   font-size: 20px;
   margin-left: 0.8em;
   margin-top: 0.5em;
-  margin-bottom: -1.5em;
 }
 
 
@@ -382,6 +422,12 @@ body section h3 {
   margin: 3em 2em 1em;
 }
 
+.detailpagina section h3 {
+  margin: 1em;
+  text-align: left;
+}
+
+
 /*Geeft een margin rechts */
 body > section:first-of-type {
   margin-right: 0.1em;
@@ -398,6 +444,15 @@ body section:last-of-type p {
   font-size: 12px;
   line-height: 180%;
   margin: 0em 3em 3em ;
+}
+
+.detailpagina section:last-of-type p {
+  margin: 1.3em;
+  font-size: 14px;
+}
+
+.detailpagina strong {
+  margin: 1em;
 }
 
 
@@ -578,28 +633,42 @@ body footer > p {
 
 @media (min-width:1227px) {
     header form {
+      margin-top: 1.5em;
       width: 20vw;
       order: 3;
     }
 
     header nav {
+      position: static;
+      left: 0;
+      height: auto;
       width: 35vw;
-      display: flex;
-      order: -1;
-      margin-left: 1em;
+      order: 1;
+      background-color: transparent;
     }
 
     header nav ul {
+      flex-direction: row;
 
     }
 
-    header > a img {
+    header nav ul li {
+      border-bottom: 0em solid;
+      margin: 0;
+    }
+
+    header nav ul li:first-of-type {
+      margin-top: 0;
+      margin-left: 1.5em;
+    }
+
+    header > a {
       order: 2;
     }
 
     header ul {
+      margin-right: 1em;
       order: 4;
-      margin: 1em;
     }
 
     header > button {
@@ -638,6 +707,27 @@ body footer > p {
       text-decoration: none;
     }
 
+    header > ul li:nth-of-type(2) a {
+      margin-right: 0em;
+    }
+
+
+    .detailpagina main h2 {
+      margin-left: 0;
+    }
+
+    .detailpagina main section:first-of-type ul li:first-of-type {
+      margin-left: 0em;
+    }
+
+    .detailpagina main section:first-of-type button {
+      margin-left: 0em;
+      margin-bottom: 1em;
+    }
+
+    .detailpagina main section:first-of-type ul {
+      overflow: hidden;
+    }
 
     body main{
       margin: 0 1.5em;

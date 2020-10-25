@@ -65,3 +65,22 @@ function toonFooter3() {
 }
 
   button.addEventListener("click", toggleMenu);
+
+
+
+  var hearts = document.querySelectorAll('article > button');
+  var hartjeNummer = document.querySelector('header > ul li a > span');
+
+
+  console.log(hearts)
+
+  var counter = 0;
+
+  hearts.forEach(heart => {
+    heart.addEventListener('click', (event) => {
+      event.target.classList.toggle('Voegtoe')
+      counter++
+      hartjeNummer.textContent = counter;
+    })
+
+  });
