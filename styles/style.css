@@ -238,6 +238,7 @@ body main section ul li a {
 .detailpagina main section:first-of-type ul {
   display: flex;
   overflow: scroll;
+
 }
 
 .detailpagina main section:first-of-type ul li {
@@ -259,6 +260,14 @@ body main section ul li a {
   white-space: nowrap;
 }
 
+.detailpagina main section:first-of-type ul li a:hover {
+  color: red;
+  font-size: 17px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+
 .detailpagina main section:first-of-type button {
   margin-left: 1em;
   background-color: white;
@@ -270,6 +279,7 @@ body main section ul li a {
   align-items: center;
   width: 40%;
   font-size: 17px;
+  cursor: pointer;
 
 
 }
@@ -289,6 +299,7 @@ body main section ul li a {
 .detailpagina main section:nth-of-type(2) article {
   margin: 1em;
   position: relative;
+  cursor: pointer;
 }
 
 .detailpagina main section:nth-of-type(2) article img {
@@ -303,6 +314,7 @@ body main section ul li a {
     background-color: white;
     top: 1.5em;
     left: 1.5em;
+    cursor: pointer;
 }
 
 .detailpagina main section:nth-of-type(2) article button {
@@ -408,10 +420,23 @@ div > ul li{
   text-decoration: none;
 }
 
+div > ul li:hover {
+    background-color: #000000;
+    list-style-type: none;
+    padding: 12.5px 12.5px;
+    color: red;
+    text-decoration: none;
+}
+
 /*De linkjes worden aangesproken*/
 body section div ul li a {
   text-decoration: none;
   color: white;
+}
+
+body section div ul li a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 body section h3 {
