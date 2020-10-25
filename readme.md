@@ -24,9 +24,9 @@ Deze week heb ik niet echt iets negatief ervaren wat niet helemaal lukte.
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot1.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot1)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot2.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot2)
 
 ![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot3.jpg)
 
