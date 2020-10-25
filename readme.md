@@ -24,23 +24,23 @@ Deze week heb ik niet echt iets negatief ervaren wat niet helemaal lukte.
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot1)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot1.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot2)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot2.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot3.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot3.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot4.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot4.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot5.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot5.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot6.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot6.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot7.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot7.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot8.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot8.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot9.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eindgesprek](images/week7_8_screenshot9.png)
 
 
 
@@ -62,19 +62,19 @@ Na een aantal uren bezig te zijn geweest en hulp heb gezocht bij Sam ben ik erui
 **Screenshot(s):**
 
 Tijdens het maken van de tweede detailpagina.
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot1.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot1.png)
 
 De scroll functie toegevoegd wanneer het scherm kleiner wordt.
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot2.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot2.png)
 
 De filterfunctie is toegevoegd.
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot3.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot3.png)
 
 Ik heb een hover toegevoegd bij het menu wanneer mijn scherm groot is.
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot4.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot4.png)
 
 Mijn hamburger menu werkend
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot5.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het derde voortgangsgesprek](images/week6_screenshot5.png)
 
 ### Agenda voor meeting
 
@@ -110,15 +110,15 @@ Wat erg goed ging is dat ik na het puzzelen met de indeling van de header ben ik
 
 Dit zijn screenshots, waarbij ik de icoontjes heb veranderd in SVG's, mijn zoekbalk heb verbetert en de afbeeldingen naast elkaar heb gezet wanneer het scherm groter wordt.
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot1.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot1.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot2.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot2.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot3.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot3.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot4.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot4.png)
 
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot5.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het tweede voortgangsgesprek](images/week4_5_screenshot5.png)
 
 ### Agenda voor meeting
 
@@ -156,10 +156,10 @@ Sam zag een aantal dingetjes in mijn header die niet helemaal klopte.
 **Screenshot(s):**
 
 Voordat Sam mij had geholpen met de header
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eerste voortgangsgesprek](images/week1_3_screenshot1.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eerste voortgangsgesprek](images/week1_3_screenshot1.png)
 
 Nadat Sam mij had geholpen met de header
-![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eerste voortgangsgesprek](images/week1_3_screenshot2.jpg)
+![screenshot(s) die een goed beeld geeft van mijn stand van zaken voor het eerste voortgangsgesprek](images/week1_3_screenshot2.png)
 
 
 ### Agenda voor meeting
