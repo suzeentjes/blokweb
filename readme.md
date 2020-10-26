@@ -8,7 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. www.winkelstraat.nl
 2. www.w3schools.com
-3. https://www.youtube.com/watch?v=kEf1xSwX5D8 (Gesproken met Bo Heins hierover)
+3. https://www.youtube.com/watch?v=kEf1xSwX5D8 
 
 
 ## Eindgesprek (week 7/8)
